@@ -1,8 +1,8 @@
 public class primeiro {
     public static void main(String[] args) {
 
-        int numero_1 = 2000;
-        int numero_2 = 60;
+        int numero_1 = 20;
+        int numero_2 = 600;
         int soma = numero_1 + numero_2;
         String nome = "Kevin";
 
