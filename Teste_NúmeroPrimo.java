@@ -21,7 +21,7 @@ public class Teste_NúmeroPrimo {
             resultado = teste_primo(numero);
         }
 
-        // resultado 0 ou 1
+        // resultado (0) ou (1)
         if (resultado == 0) {
             System.out.printf("\n O número %d é primo \n\n", numero);
         } else {
