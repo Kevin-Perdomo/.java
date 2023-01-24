@@ -2,7 +2,7 @@
 //Inicialização
 import java.util.Scanner;
 
-public class primeiro {
+public class Boletim {
     public static void main(String[] args) {
 
         // Declaração de variáveis
