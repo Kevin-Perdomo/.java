@@ -3,7 +3,7 @@
 import java.util.Scanner;
 
 //Teste de número primo com passagem de parametro por função
-public class Teste_NúmeroPrimo {
+public class Teste_número_primo {
 
     public static void main(String[] args) {
 
