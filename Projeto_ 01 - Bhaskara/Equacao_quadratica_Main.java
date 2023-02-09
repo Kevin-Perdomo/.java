@@ -2,7 +2,7 @@
 //Inicialização
 import java.util.Scanner;
 
-public class Equacao_quadratica {
+public class Equacao_quadratica_Main {
     public static void main(String[] args) {
 
         double a, b, c, delta, x1, x2;
@@ -41,7 +41,5 @@ public class Equacao_quadratica {
         if (delta < 0) {
             System.out.println("\n\n Nao possui raizes reais \n\n");
         }
-
-        System.exit(0);
     }
 }
