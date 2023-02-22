@@ -12,7 +12,7 @@ public class Boletim {
         int faltas = 0;
         int tipo_prova = 0;
 
-        // Método da instituição de ensino
+        // Método de avaliação da instituição de ensino
         final int media = 60;
         final int recuperacao = 40;
         final int max_faltas = 20;
