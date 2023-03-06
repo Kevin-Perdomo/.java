@@ -2,7 +2,7 @@
 //Inicialização
 import java.util.Scanner;
 
-public class Equacao_quadratica_Main {
+public class equacao_quadratica_main {
     public static void main(String[] args) {
 
         double a, b, c, delta, x1, x2;
