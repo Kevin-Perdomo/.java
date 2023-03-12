@@ -12,6 +12,7 @@ public class Equação_quadratica {
 	Double x2;
 
 	public Equação_quadratica(Double a, Double b, Double c) {
+
 		this.a = a;
 		this.b = b;
 		this.c = c;
