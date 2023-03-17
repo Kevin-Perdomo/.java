@@ -24,6 +24,7 @@ public class Equação_quadratica {
 
 		this.delta = (this.b * this.b) - (4 * this.a * this.c);
 
+		// JOptionPane
 		if (delta < 0) {
 			JOptionPane.showMessageDialog(null, "Delta negativo possui raizes complexas");
 		}
