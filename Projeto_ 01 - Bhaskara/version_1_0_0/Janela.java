@@ -2,6 +2,7 @@ package version_1_0_0;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.text.DecimalFormat;
 import java.awt.Color;
 
 import javax.swing.JButton;
@@ -100,9 +101,13 @@ class Janela extends JFrame {
             Double.parseDouble(bText.getText()),
             Double.parseDouble(cText.getText()));
 
-        deltaText.setText(equation.delta.toString());
-        x1Text.setText(equation.x1.toString());
-        x2Text.setText(equation.x2.toString());
+        // DecimalFormat
+        String formato = "#,##0.000";
+        DecimalFormat d = new DecimalFormat(formato);
+
+        deltaText.setText(d.format(equation.delta).toString());
+        x1Text.setText(d.format(equation.x1).toString());
+        x2Text.setText(d.format(equation.x2).toString());
       }
 
     });
