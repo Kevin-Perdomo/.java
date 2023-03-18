@@ -15,7 +15,7 @@ class Janela extends JFrame {
   // Constructor
   public Janela() {
     this.setSize(465, 300);
-    this.setTitle("Calcular equação de segundo grau");
+    this.setTitle("Calcular equação do segundo grau");
     this.setDefaultCloseOperation(EXIT_ON_CLOSE);
     this.setResizable(false);
     this.setLayout(null);
