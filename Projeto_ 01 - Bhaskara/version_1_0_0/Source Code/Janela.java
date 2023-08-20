@@ -19,6 +19,8 @@ class Janela extends JFrame {
     this.setDefaultCloseOperation(EXIT_ON_CLOSE);
     this.setResizable(false);
     this.setLayout(null);
+    this.getContentPane().setBackground(Color.white);
+
 
     JLabel iLabel = new JLabel("Equação Quadrática ---> [aX² + bX + C = 0]");
     iLabel.setSize(400, 30);
