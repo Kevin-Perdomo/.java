@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-GestaoFestaApplication<gestao-festa>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.algaworks.festa.controller.GestaoFestaApplication",
+            "projectName": "gestao-festa",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
