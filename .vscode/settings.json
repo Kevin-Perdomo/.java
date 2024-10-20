@@ -1,0 +1,8 @@
+{
+    "java.project.sourcePaths": [
+        "Sistemas Distribuidos/Teste RMI/src/Server",
+        "Sistemas Distribuidos/Teste RMI/src/Implementation",
+        "Sistemas Distribuidos/Teste RMI/src/Client",
+        "Projeto_ 01 - Bhaskara/version_1_0_0/Source Code"
+    ]
+}
